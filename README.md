@@ -2,7 +2,7 @@
 Simple container with nginx+rtmp module that allows you to test a simple live streaming transmux scenario (RTMP -> HLS)
 
 # Introduction
-Containers are not the best options to keep TCP persistent connections open forever. But this has been develloped as a simple POC to see what the nginx + RTMP module can do.
+Containers are not the best options to keep TCP persistent connections open forever. But this has been developed as a simple POC to see what the nginx + RTMP module can do together.
 
 # Build
 - Ensure you have [docker](https://www.docker.com/) in your system
