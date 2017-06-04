@@ -2,7 +2,7 @@
 # Build the container
 
 # Import docker repo (docker hub creds)
-include ./secrets/docker-creds
+include ./secrets/docker-creds.secrets
 
 DOCKER_IMAGE_NAME = livejob
 DOCKER_IMAGE_VERSION = 1.0
